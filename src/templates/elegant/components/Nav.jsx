@@ -1,7 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
-import { useAuth } from '../../context/AuthContext.jsx';
-import { useCart } from '../../context/CartContext.jsx';
-import { useShop } from '../../context/ShopContext.jsx';
+import { useAuth } from '../../../context/AuthContext.jsx';
+import { useCart } from '../../../context/CartContext.jsx';
+import { useShop } from '../../../context/ShopContext.jsx';
 
 export const elegantStyles = {
   page: {
